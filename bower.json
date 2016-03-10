@@ -16,7 +16,9 @@
   ],
   "dependencies": {
     "Skeleton": "git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361",
-    "jquery": "^2.2.1"
+    "jquery": "^2.2.1",
+    "parallax": "^2.1.3",
+    "Ionicons": "ionicons#^2.0.1"
   },
   "homepage": "https://github.com/aj07mm/landing-page-boilerplate",
   "moduleType": [],

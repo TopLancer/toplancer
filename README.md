@@ -5,3 +5,7 @@ a boilerplate for landing pages especially designed for startup, hackatons and c
 ## To Run:
 
 	bower install
+
+## How to:
+
+- embed google map : [https://support.google.com/maps/answer/3544418?hl=en]
