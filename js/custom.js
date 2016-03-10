@@ -40,6 +40,15 @@ $(document).ready(function() {
     }
   }
 
+  //navbar scrolls
+
+  $(".navbar-item").click(function(evt) {
+    var href = evt.target.href.split('#')[1];
+      $('html, body').animate({
+          scrollTop: $("#" + href).offset().top
+      }, 2000);
+  });
+
   init();
 
 });

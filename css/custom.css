@@ -224,8 +224,13 @@
     border-bottom-color: #33C3F0; }
 }
 
+.center { 
+  text-align: center;
+}
 .section {
-  height: 370px;
+  min-height: 200px;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 .section-one {
   background-color: #99ccff;
@@ -246,3 +251,10 @@
   background-color: ;
 }
 
+h1,h2,h3 {
+  margin-bottom: 70px;
+}
+
+.tile-item {
+  border: 1px solid;
+}
