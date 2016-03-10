@@ -4,4 +4,4 @@ a boilerplate for landing pages especially designed for startup, hackatons and c
 
 ## To Run:
 
-	npm install
+	bower install
