@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/aj07mm/.nvm/versions/node/v4.2.1/bin/node',
+1 verbose cli   '/Users/aj07mm/.nvm/versions/node/v4.2.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose readDependencies loading dependencies from /Users/aj07mm/Desktop/landing-page-boilerplate/package.json
+5 verbose install where, deps [ '/Users/aj07mm/Desktop/landing-page-boilerplate',
+5 verbose install   [ 'Skeleton' ] ]
+6 verbose install where, peers [ '/Users/aj07mm/Desktop/landing-page-boilerplate', [] ]
+7 verbose installManyTop reading for lifecycle /Users/aj07mm/Desktop/landing-page-boilerplate/package.json
+8 info preinstall landing-page-boilerplate@1.0.0
+9 verbose readDependencies loading dependencies from /Users/aj07mm/Desktop/landing-page-boilerplate/package.json
+10 silly cache add args [ 'Skeleton@git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361',
+10 silly cache add   null ]
+11 verbose cache add spec Skeleton@git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'Skeleton@git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'Skeleton',
+12 silly cache add   rawSpec: 'git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361',
+12 silly cache add   spec: 'http://aj07mm@github.com/dhg/Skeleton.git#88f0361',
+12 silly cache add   type: 'git' }
+13 verbose addRemoteGit caching git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361
+14 silly tryClone cloning git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 via git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361
+15 verbose tryClone http-aj07mm-github-com-dhg-Skeleton-git-1ca30ec9 not in flight; caching
+16 info git [ 'clone',
+16 info git   '--template=/Users/aj07mm/.npm/_git-remotes/_templates',
+16 info git   '--mirror',
+16 info git   'http://aj07mm@github.com/dhg/Skeleton.git',
+16 info git   '/Users/aj07mm/.npm/_git-remotes/http-aj07mm-github-com-dhg-Skeleton-git-1ca30ec9' ]
+17 verbose mirrorRemote git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 git clone http://aj07mm@github.com/dhg/Skeleton.git
+18 verbose setPermissions git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 set permissions on /Users/aj07mm/.npm/_git-remotes/http-aj07mm-github-com-dhg-Skeleton-git-1ca30ec9
+19 verbose resolveHead git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 original treeish: 88f0361
+20 info git [ 'rev-list', '-n1', '88f0361' ]
+21 silly resolveHead git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 resolved treeish: 88f03612b05f093e3f235ced77cf89d3a8fcf846
+22 verbose resolveHead git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 resolved Git URL: git+ssh://git@github.com/dhg/Skeleton.git#88f03612b05f093e3f235ced77cf89d3a8fcf846
+23 silly resolveHead Git working directory: /var/folders/jx/3yjpx73145n52ch8mw63y7d80000gn/T/npm-99164-403038b8/git-cache-df1ed2348d1b/88f03612b05f093e3f235ced77cf89d3a8fcf846
+24 info git [ 'clone',
+24 info git   '/Users/aj07mm/.npm/_git-remotes/http-aj07mm-github-com-dhg-Skeleton-git-1ca30ec9',
+24 info git   '/var/folders/jx/3yjpx73145n52ch8mw63y7d80000gn/T/npm-99164-403038b8/git-cache-df1ed2348d1b/88f03612b05f093e3f235ced77cf89d3a8fcf846' ]
+25 verbose cloneResolved git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 clone Cloning into '/var/folders/jx/3yjpx73145n52ch8mw63y7d80000gn/T/npm-99164-403038b8/git-cache-df1ed2348d1b/88f03612b05f093e3f235ced77cf89d3a8fcf846'...
+25 verbose cloneResolved done.
+26 info git [ 'checkout', '88f03612b05f093e3f235ced77cf89d3a8fcf846' ]
+27 verbose checkoutTreeish git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361 checkout Note: checking out '88f03612b05f093e3f235ced77cf89d3a8fcf846'.
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+27 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+27 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+27 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish   git checkout -b <new-branch-name>
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish HEAD is now at 88f0361... fixing all the weird versioning I just had to do
+28 error addLocal Could not install /var/folders/jx/3yjpx73145n52ch8mw63y7d80000gn/T/npm-99164-403038b8/git-cache-df1ed2348d1b/88f03612b05f093e3f235ced77cf89d3a8fcf846
+29 verbose stack Error: EISDIR: illegal operation on a directory, read
+29 verbose stack     at Error (native)
+30 verbose cwd /Users/aj07mm/Desktop/landing-page-boilerplate
+31 error Darwin 14.5.0
+32 error argv "/Users/aj07mm/.nvm/versions/node/v4.2.1/bin/node" "/Users/aj07mm/.nvm/versions/node/v4.2.1/bin/npm" "install"
+33 error node v4.2.1
+34 error npm  v2.14.7
+35 error code EISDIR
+36 error errno -21
+37 error syscall read
+38 error eisdir EISDIR: illegal operation on a directory, read
+38 error eisdir This is most likely not a problem with npm itself
+38 error eisdir and is related to npm not being able to find a package.json in
+38 error eisdir a package you are trying to install.
+39 verbose exit [ -21, true ]

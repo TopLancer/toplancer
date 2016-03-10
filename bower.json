@@ -1,0 +1,29 @@
+{
+  "name": "landing-page-boilerplate",
+  "description": "a boilerplate for landing pages especially designed for startup, hackatons and company advertisement",
+  "main": "index.html",
+  "authors": [
+    "Julio Marins"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "boilerplate",
+    "landing",
+    "page",
+    "startup",
+    "company",
+    "parallax"
+  ],
+  "dependencies" : {
+    "Skeleton" : "git+http://aj07mm@github.com/dhg/Skeleton.git#88f0361"
+  },
+  "homepage": "https://github.com/aj07mm/landing-page-boilerplate",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
