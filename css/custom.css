@@ -250,6 +250,11 @@
 .section-six {
   background-color: ;
 }
+.section-seven {
+      min-height: 200px;
+    /* padding-top: 70px; */
+    /* padding-bottom: 100px; */
+}
 .footer {
   background-color: #99ccff;
 }
