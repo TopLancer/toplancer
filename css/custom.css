@@ -273,3 +273,19 @@ h1,h2,h3 {
 #map iframe{
     pointer-events: none;
 }
+
+#home img {
+  width: 70%;
+  height: 70%;
+}
+
+#home h1,h2,h3,p {
+  color:white;
+}
+
+.icon-device-mac {
+  width: 50%;
+}
+.icon-device-mobile {
+  width: 15%;
+}
