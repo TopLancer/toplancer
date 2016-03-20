@@ -269,3 +269,7 @@ h1,h2,h3 {
 .icon-social {
   font-size: 30px;
 }
+
+#map iframe{
+    pointer-events: none;
+}
