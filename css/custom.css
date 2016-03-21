@@ -233,30 +233,28 @@
   padding-bottom: 100px;
 }
 .section-one {
-  background-color: #99ccff;
+  background-color: #D5E7FB;
 }
 .section-two {
   background-color: ;
 }
 .section-three {
-  background-color: #99ccff;
+  background-color: #D5E7FB;
 }
 .section-four {
   background-color:;
 }
 .section-five {
-  background-color: #99ccff;
+  background-color: #D5E7FB;
 }
 .section-six {
   background-color: ;
 }
 .section-seven {
-      min-height: 200px;
-    /* padding-top: 70px; */
-    /* padding-bottom: 100px; */
+  line-height: 0;
 }
 .footer {
-  background-color: #99ccff;
+  background-color: #D5E7FB;
 }
 
 h1,h2,h3 {
@@ -264,7 +262,13 @@ h1,h2,h3 {
 }
 
 .tile-item {
-  /*border: 1px solid;*/
+  padding: 20px;
+  background-color: white;
+}
+
+.tile-item img{
+  width: 200px;
+  height: 200px;
 }
 .icon-social {
   font-size: 30px;
@@ -272,6 +276,10 @@ h1,h2,h3 {
 
 #map iframe{
     pointer-events: none;
+}
+
+#home {
+  background-image: url('../images/student.jpg')
 }
 
 #home img {
@@ -288,4 +296,13 @@ h1,h2,h3 {
 }
 .icon-device-mobile {
   width: 15%;
+}
+
+.tile-item li {
+  list-style-type: none;
+  display: inline;
+}
+
+.description {
+  font-size: 10px;
 }
