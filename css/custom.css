@@ -263,12 +263,13 @@ h1,h2,h3 {
 
 .tile-item {
   padding: 20px;
+  margin-top: 10px;
   background-color: white;
 }
 
 .tile-item img{
-  width: 200px;
-  height: 200px;
+  width: 80%;
+  height: 180px;
 }
 .icon-social {
   font-size: 30px;
@@ -279,7 +280,9 @@ h1,h2,h3 {
 }
 
 #home {
-  background-image: url('../images/student.jpg')
+  background-image: url('../images/student.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #home img {
@@ -305,4 +308,6 @@ h1,h2,h3 {
 
 .description {
   font-size: 10px;
+  height: 110px;
+  display: inline-block;
 }
